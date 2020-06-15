@@ -1,0 +1,13 @@
+lab50:
+     files:
+        - !exclude "*"
+        - !include "slidininkai.cpp"
+        - !include "Duomenys.txt"
+        - !include "Rezultatai.txt"
+
+  check50:
+     files:
+        - !exclude "*"
+        - !require "slidininkai.cpp"
+        - !require "Duomenys.txt"
+        - !require "Rezultatai.txt"
